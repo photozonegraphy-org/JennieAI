@@ -1,10 +1,4 @@
-/**
- * JennieAI Tool — any-to-jpg.js
- * Converts any image (PNG, WebP, GIF, etc.) to JPEG.
- * Upload this file to your Cloudflare CDN.
- *
- * Registered as: window.JennieTools['any-to-jpg']
- */
+
 (function () {
   'use strict';
 
