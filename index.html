@@ -23,17 +23,34 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="bingbot" content="index, follow" />
-    <meta name="gptbot" content="index, follow" />
+    <meta name="GPTBot" content="index, follow" />
     <meta name="oai-searchbot" content="index, follow" />
     <meta name="claudebot" content="index, follow" />
     <meta name="anthropic-ai" content="index, follow" />
     <meta name="google-extended" content="index, follow" />
     <meta name="perplexitybot" content="index, follow" />
     <meta name="cohere-ai" content="index, follow" />
+    <meta name="Perplexity-User" content="index, follow" />
     <meta name="applebot" content="index, follow" />
     <meta name="amazonbot" content="index, follow" />
     <meta name="meta-externalagent" content="index, follow" />
     <meta name="diffbot" content="index, follow" />
+    <meta name="DC.title" content="WebZone Graphy — Websites for Photographers" />
+    <meta name="DC.creator" content="WebZone Graphy" />
+    <meta name="DC.subject" content="Photography, Web Design, Website Management, Photographer Portfolio" />
+    <meta name="DC.description"
+        content="WebZone Graphy designs and builds custom websites exclusively for photographers, backed by PhotoZone Graphy." />
+    <meta name="DC.publisher" content="PhotoZone Graphy" />
+    <meta name="DC.date" content="2026-06-30" />
+    <meta name="DC.type" content="Text" />
+    <meta name="DC.format" content="text/html" />
+    <meta name="DC.identifier" content="https://ai.photozonegraphy.com" />
+    <meta name="DC.language" content="en" />
+    <meta name="DC.rights" content="© PhotoZone Graphy. All rights reserved." />
+    <meta name="citation_title" content="WebZone Graphy — Websites for Photographers" />
+    <meta name="citation_author" content="WebZone Graphy" />
+    <meta name="citation_publication_date" content="2026-06-30" />
+    <meta name="citation_publisher" content="PhotoZone Graphy" />
     <meta property="og:site_name" content="WebZone Graphy" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
@@ -75,6 +92,31 @@
     "url":"https://photozonegraphy.com"
   }
 }</script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://ai.photozonegraphy.com/#webpage",
+  "url": "https://ai.photozonegraphy.com",
+  "name": "WebZone Graphy | Websites for Photographers",
+  "description": "WebZone Graphy designs, builds, and optionally manages websites exclusively for photographers, backed by PhotoZone Graphy.",
+  "inLanguage": "en",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".hero-title", ".hero-sub", ".s-title", ".s-sub"]
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "PhotoZone Graphy", "item": "https://photozonegraphy.com"},
+      {"@type": "ListItem", "position": 2, "name": "WebZone Graphy", "item": "https://ai.photozonegraphy.com"}
+    ]
+  }
+}
+</script>
+    <noscript>
+        <div style="position:fixed;inset:0;z-index:-1;background:#05060a;"></div>
+    </noscript>
     <script type="application/ld+json">{
   "@context":"https://schema.org",
   "@type":"WebPage",
@@ -106,7 +148,6 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
     <style>
         :root {
-            /* Unified color system extending from the hero scene */
             --void: #05060a;
             --void-2: #0a0c14;
             --surface: #10131c;
@@ -171,7 +212,6 @@
             color: var(--ink)
         }
 
-        /* ===== LOADER ===== */
         #loader {
             position: fixed;
             inset: 0;
@@ -204,7 +244,6 @@
             }
         }
 
-        /* ===== GLOBAL WEBGL BACKDROP (shared, persistent) ===== */
         #bg-canvas {
             position: fixed;
             inset: 0;
@@ -215,7 +254,6 @@
             background: var(--void);
         }
 
-        /* ===== 3D BUTTON SYSTEM ===== */
         .btn {
             display: inline-flex;
             align-items: center;
@@ -279,7 +317,6 @@
             font-size: .85rem
         }
 
-        /* ===== NAV ===== */
         nav {
             position: fixed;
             top: 0;
@@ -406,7 +443,6 @@
             border-bottom: none
         }
 
-        /* ===== HERO ===== */
         #hero {
             position: relative;
             height: 100vh;
@@ -515,7 +551,6 @@
             background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent)
         }
 
-        /* ===== STAGE SECTIONS ===== */
         .stage-section {
             padding: 140px 6%;
             position: relative;
@@ -554,7 +589,6 @@
             margin-bottom: 64px
         }
 
-        /* ===== 3D GLASS CARDS ===== */
         .tilt-card {
             background: rgba(255, 255, 255, 0.04);
             backdrop-filter: blur(28px) saturate(180%);
@@ -609,7 +643,6 @@
             transform: translateZ(12px)
         }
 
-        /* ===== MANAGED ===== */
         .managed-wrap {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -701,7 +734,6 @@
             margin-top: 28px
         }
 
-        /* ===== MEMBERSHIP / PAYMENT CARD ===== */
         .card-scene {
             perspective: 1200px;
             width: 100%;
@@ -897,7 +929,6 @@
             text-align: center
         }
 
-        /* ===== PACKAGE ===== */
         .package-card {
             max-width: 720px;
             margin: 0 auto;
@@ -981,7 +1012,6 @@
             color: var(--gold)
         }
 
-        /* ===== HOSTING CHOICE ===== */
         .choice-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -1006,7 +1036,6 @@
             font-size: .87rem
         }
 
-        /* ===== TRUST ===== */
         .trust-row {
             display: flex;
             justify-content: center;
@@ -1037,7 +1066,6 @@
             background: rgba(255, 255, 255, 0.1)
         }
 
-        /* ===== FAQ ===== */
         .faq-list {
             max-width: 720px;
             margin: 0 auto;
@@ -1115,7 +1143,6 @@
             color: var(--azure)
         }
 
-        /* ===== CTA ===== */
         #cta {
             text-align: center;
             padding: 150px 6%;
@@ -1144,7 +1171,6 @@
             flex-wrap: wrap
         }
 
-        /* ===== FOOTER ===== */
         footer {
             padding: 56px 6% 32px;
             font-size: .82rem;
@@ -1200,7 +1226,6 @@
             color: rgba(255, 255, 255, 0.3)
         }
 
-        /* ===== REVEAL / STAGGER ===== */
         .reveal {
             opacity: 0;
             transform: translateY(40px) translateZ(0);
@@ -1230,7 +1255,6 @@
             }
         }
 
-        /* ===== RESPONSIVE ===== */
         @media (max-width:880px) {
             .nav-links {
                 display: none
@@ -1639,12 +1663,10 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script>
-        /* ===================== LOADER ===================== */
         window.addEventListener('load', () => {
             setTimeout(() => document.getElementById('loader').classList.add('hide'), 300);
         });
 
-        /* ===================== NAV ===================== */
         const nav = document.getElementById('main-nav');
         function updateNav() { nav.classList.toggle('scrolled', window.scrollY > 40); }
         window.addEventListener('scroll', updateNav, { passive: true });
@@ -1660,7 +1682,6 @@
             mobilePanel.classList.remove('open'); navToggle.classList.remove('open');
         }));
 
-        /* ===================== FAQ ===================== */
         document.querySelectorAll('.faq-q').forEach(btn => {
             btn.addEventListener('click', () => {
                 const item = btn.parentElement;
@@ -1670,7 +1691,6 @@
             });
         });
 
-        /* ===================== SMOOTH ANCHORS ===================== */
         document.querySelectorAll('a[href^="#"]').forEach(a => {
             a.addEventListener('click', e => {
                 const target = document.querySelector(a.getAttribute('href'));
@@ -1681,7 +1701,6 @@
             });
         });
 
-        /* ===================== REVEAL / STAGGER ===================== */
         const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
         const isDesktop = window.matchMedia('(min-width: 881px)').matches;
 
@@ -1706,7 +1725,6 @@
             document.querySelectorAll('.reveal,.stagger').forEach(el => el.classList.add('in-view'));
         }
 
-        /* ===================== TILT CARDS ===================== */
         if (isDesktop && !reduceMotion) {
             document.querySelectorAll('.tilt-card').forEach(card => {
                 let rx = 0, ry = 0, trx = 0, try_ = 0;
@@ -1742,7 +1760,6 @@
             });
         }
 
-        /* ===================== MEMBERSHIP CARD ===================== */
         (function () {
             const scene = document.getElementById('cardScene');
             const wrap = document.getElementById('cardWrap');
@@ -1780,11 +1797,6 @@
             });
         })();
 
-        /* ===================== SHARED WEBGL BACKDROP ===================== */
-        /* One persistent canvas behind the entire page. A central object cluster
-           morphs/rotates/dollies based on which section is in view, driven by
-           scroll position rather than per-section canvases — this keeps it to a
-           single WebGL context for the whole site. */
         (function () {
             const canvas = document.getElementById('bg-canvas');
             if (!canvas || typeof THREE === 'undefined') return;
@@ -1854,7 +1866,6 @@
                 mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
             });
 
-            // Track scroll position as a continuous "depth" driver across the whole page
             let docScroll = 0, docHeight = 1;
             function measure() {
                 docHeight = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
@@ -1866,7 +1877,7 @@
             const clock = new THREE.Clock();
             function animate() {
                 const t = clock.getElapsedTime();
-                const progress = docScroll / docHeight; // 0 -> 1 across whole page
+                const progress = docScroll / docHeight;
 
                 group.rotation.y = t * 0.2 + mouseX * 0.25 + progress * Math.PI * 1.4;
                 group.rotation.x = Math.sin(t * 0.15) * 0.12 + mouseY * 0.15;
@@ -1875,9 +1886,6 @@
                 ico.rotation.x = t * 0.25;
                 wire.rotation.copy(ico.rotation);
                 particles.rotation.y = t * 0.015 + progress * 0.6;
-
-                // Pulse depth and opacity with scroll progress within the first viewport,
-                // then settle into an ambient background presence for the rest of the page.
                 const heroFactor = Math.min(1, docScroll / window.innerHeight);
                 camera.position.z = 9 + heroFactor * 4;
                 group.position.y = -heroFactor * 3 + Math.sin(progress * Math.PI * 4) * 0.4;
